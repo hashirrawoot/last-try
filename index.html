@@ -1,0 +1,121 @@
+<html>
+<head>
+<title> My title</title>
+</head>
+
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>La Farine Cafe</title>
+
+<style>
+body{font-family:Arial;margin:0;background:#fff;}
+.dark{background:#121212;color:#fff}
+
+/* NAV */
+nav{display:flex;justify-content:space-between;padding:15px;background:#eee;position:fixed;width:100%;}
+button{padding:10px;border:none;border-radius:20px;cursor:pointer}
+
+/* HERO */
+.hero{height:100vh;background:#333;color:#fff;display:flex;align-items:center;justify-content:center;text-align:center}
+
+/* SECTION */
+.section{padding:80px 20px;text-align:center}
+
+/* MENU */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:20px}
+.card{padding:15px;background:#f4f4f4;border-radius:10px}
+
+/* GALLERY */
+.gallery img{width:100%;border-radius:10px}
+
+/* FLOAT */
+.float{position:fixed;bottom:20px;right:20px;display:flex;flex-direction:column;gap:10px}
+.float a{padding:12px;border-radius:50%;color:#fff;text-decoration:none}
+.whatsapp{background:#25D366}
+.call{background:#2563eb}
+</style>
+</head>
+
+<body>
+
+<nav>
+<b>La Farine</b>
+<button onclick="document.body.classList.toggle('dark')">🌙</button>
+</nav>
+
+<div class="hero">
+<div>
+<h1>La Farine Cafe</h1>
+<p>4.7 ⭐ Best Cafe in Kharghar</p>
+</div>
+</div>
+
+<!-- MENU -->
+<div class="section">
+<h2>Our Menu</h2>
+<div class="grid">
+
+<div class="card"><h3>Rose Pasta</h3><p>₹350</p></div>
+<div class="card"><h3>White Sauce Pasta</h3><p>₹320</p></div>
+<div class="card"><h3>Spaghetti Aglio Olio</h3><p>₹300</p></div>
+<div class="card"><h3>Chicken Risotto</h3><p>₹380</p></div>
+<div class="card"><h3>Club Sandwich</h3><p>₹250</p></div>
+<div class="card"><h3>Pizza</h3><p>₹400</p></div>
+<div class="card"><h3>Cheesecake</h3><p>₹280</p></div>
+<div class="card"><h3>Chocolate Cake</h3><p>₹260</p></div>
+<div class="card"><h3>Strawberry Milkshake</h3><p>₹200</p></div>
+
+</div>
+</div>
+
+<!-- GALLERY -->
+<div class="section gallery">
+<h2>Gallery</h2>
+<div class="grid">
+<img src="https://source.unsplash.com/300x200/?dessert">
+<img src="https://source.unsplash.com/300x200/?cafe">
+<img src="https://source.unsplash.com/300x200/?pasta">
+</div>
+</div>
+
+<!-- REVIEWS -->
+<div class="section">
+<h2>Reviews</h2>
+<p>⭐ "Amazing cozy vibe!"</p>
+<p>⭐ "Best pasta in Kharghar!"</p>
+<p>⭐ "Desserts are mind blowing!"</p>
+</div>
+
+<!-- CONTACT -->
+<div class="section">
+<h2>Visit Us</h2>
+<p>Kharghar, Panvel</p>
+
+<iframe src="https://www.google.com/maps?q=La+Farine+Kharghar&output=embed" width="100%" height="200"></iframe>
+
+<br><br>
+<a href="https://wa.me/919869053023"><button>Order on WhatsApp</button></a>
+<a href="tel:09869053023"><button>Call Now</button></a>
+</div>
+
+<!-- FLOAT BUTTON -->
+<div class="float">
+<a href="https://wa.me/919869053023" class="whatsapp">💬</a>
+<a href="tel:09869053023" class="call">📞</a>
+</div>
+
+<script>
+</script>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
+</body>
+</html>
